@@ -1,21 +1,15 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title>Home</ion-title>
   </ion-toolbar>
 </ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Nombre cambio para git</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer"
-        href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content>
+  <ion-list>
+    <ion-item routerLink="/about">Go to About</ion-item>
+    <ion-item routerLink="/contact">Go to Contact</ion-item>
+    <ion-item routerLink="/pag2">Go to 2</ion-item>
+    <ion-item routerLink="/pag3">Go to 3</ion-item>
+    <ion-item routerLink="/pag4">Go to 4</ion-item>
+    <ion-item routerLink="/pag5">Go to 5</ion-item>
+  </ion-list>
 </ion-content>
