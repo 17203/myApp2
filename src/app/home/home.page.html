@@ -1,15 +1,38 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Home</ion-title>
-  </ion-toolbar>
-</ion-header>
-<ion-content>
-  <ion-list>
-    <ion-item routerLink="/about">Go to About</ion-item>
-    <ion-item routerLink="/contact">Go to Contact</ion-item>
-    <ion-item routerLink="/pag2">Go to 2</ion-item>
-    <ion-item routerLink="/pag3">Go to 3</ion-item>
-    <ion-item routerLink="/pag4">Go to 4</ion-item>
-    <ion-item routerLink="/pag5">Go to 5</ion-item>
-  </ion-list>
-</ion-content>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Jefes en Dark Souls 1</title>
+    <style>
+        /* Estilo para el contenedor con scroll */
+        .scrollable-container {
+            max-height: 400px; /* Altura máxima del contenedor */
+            overflow-y: auto; /* Habilita el scroll vertical */
+            border: 1px solid #ccc; /* Opcional: borde para distinguir el contenedor */
+            padding: 10px; /* Opcional: espacio interno */
+        }
+    </style>
+</head>
+<body>
+
+    <header class="bg-dark text-white p-3">
+        <h1 class="text-center">Jefes en Dark Souls 1</h1>
+    </header>
+
+    <div class="container mt-6 scrollable-container">
+        <ul class="list-group">
+            <li class="list-group-item"><a href="/about"> <img src="https://media.vandal.net/i/1080x1080/5-2018/201857114947_2.jpg" alt="error" style="max-width: 150px; height: auto;">Gargola Campana</a></li>
+            <li class="list-group-item"><a href="/contact"><img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2020/10/5-Dark-Souls-Gaping-Dragon-Cutscene.jpg" alt="error" style="max-width: 150px; height: auto;">Dragón boquiabierto</a></li>
+            <li class="list-group-item"><a href="/pag2"><img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/05/dark-souls-ornstein-smough.jpg" alt="error" style="max-width: 150px; height: auto;">Ornstein el Asesino de dragones y Smough el Verdugo</a></li>
+            <li class="list-group-item"><a href="/pag3"><img src="https://i.ytimg.com/vi/dfe5DlAsFsI/maxresdefault.jpg" alt="error" style="max-width: 150px; height: auto;">Sif el Gran lobo gris</a></li>
+            <li class="list-group-item"><a href="/pag4"><img src="https://dibujando.net/files/fs/p/i/2017/78/artorias_310019.jpg" alt="error" style="max-width: 150px; height: auto;">Caballero Artorias</a></li>
+            <li class="list-group-item"><a href="/pag5"><img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/dark-souls/1/12/20160324191319_1.jpg" alt="error" style="max-width: 150px; height: auto;">Priscilla la Mestiza</a></li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+

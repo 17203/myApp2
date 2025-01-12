@@ -1,0 +1,15 @@
+// Establecer el fondo negro para el cuerpo de la página
+body {
+    background-color: black; // Color de fondo negro
+    color: white; // Color de texto blanco para mejor contraste
+}
+
+// Opcional: Estilo para los enlaces
+a {
+    color: white; // Color de los enlaces
+    text-decoration: none; // Sin subrayado
+
+    &:hover {
+        text-decoration: underline; // Subrayar al pasar el mouse
+    }
+}
